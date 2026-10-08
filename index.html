@@ -94,12 +94,14 @@ h1 span{background:linear-gradient(90deg,var(--red2),var(--aqua2));-webkit-backg
 .nw .logo{width:170px;height:170px;border-radius:26px;background:#fff;display:grid;place-items:center;padding:18px;box-shadow:0 20px 44px rgba(0,0,0,.4)}
 .nw .logo img{width:100%;height:100%;object-fit:contain}
 .nw h2{font-size:2rem;margin-bottom:10px}
-.nw p{color:var(--muted)}
+.nw p{color:var(--muted);margin-bottom:20px}
+.nw-actions{display:flex;gap:14px;flex-wrap:wrap}
 
 /* booking */
 .book-box{background:var(--card);border:1px solid var(--line);border-radius:30px;padding:48px;text-align:center}
 .book-box h2{font-size:clamp(1.8rem,3.2vw,2.5rem);margin-bottom:12px}
 .book-box p{color:var(--muted);max-width:560px;margin:0 auto 28px}
+.book-actions{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
 
 /* contact */
 .contact{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:22px}
@@ -140,7 +142,7 @@ footer{padding:34px 0;border-top:1px solid var(--line);text-align:center;color:v
         <li><a class="link" href="#services">Expertise</a></li>
         <li><a class="link" href="#nammaweb">Nammaweb</a></li>
         <li><a class="link" href="#contact">Contact</a></li>
-        <li><a class="btn red" href="https://docs.google.com/forms/d/e/1FAIpQLScS7tf-Bg6Vm8lt9dByZm-o91z9hO8JI9BBqxOmIvyrfc5Jlw/viewform?usp=publish-editor" target="_blank" rel="noopener noreferrer">Book a call</a></li>
+        <li><a class="btn red" href="https://docs.google.com/forms/d/e/1FAIpQLScS7tf-Bg6Vm8lt9dByZm-o91z9hO8JI9BBqxOmIvyrfc5Jlw/viewform?usp=publish-editor" target="_blank" rel="noopener noreferrer">Client Requirements</a></li>
       </ul>
     </nav>
   </div>
@@ -155,7 +157,7 @@ footer{padding:34px 0;border-top:1px solid var(--line);text-align:center;color:v
       <p class="role">AI Research Marketing Specialist @ Nammaweb</p>
       <p class="lead">Expert in SEO, GEO, AEO and AI-driven lead generation. I help brands scale revenue by getting found on Google and inside AI answers.</p>
       <div class="cta">
-        <a class="btn red" href="https://docs.google.com/forms/d/e/1FAIpQLScS7tf-Bg6Vm8lt9dByZm-o91z9hO8JI9BBqxOmIvyrfc5Jlw/viewform?usp=publish-editor" target="_blank" rel="noopener noreferrer">Book a call</a>
+        <a class="btn red" href="https://docs.google.com/forms/d/e/1FAIpQLScS7tf-Bg6Vm8lt9dByZm-o91z9hO8JI9BBqxOmIvyrfc5Jlw/viewform?usp=publish-editor" target="_blank" rel="noopener noreferrer">Client Requirements</a>
         <a class="btn ghost" href="https://www.linkedin.com/in/rajiv-kumar-h-n-a024683b5?utm_source=share_via&amp;utm_content=profile&amp;utm_medium=member_android" target="_blank" rel="noopener noreferrer">
           <svg viewBox="0 0 48 48" aria-hidden="true"><rect width="48" height="48" rx="8" fill="#0A66C2"/><path fill="#fff" d="M12 19h5v17h-5zM14.5 11a3 3 0 110 6 3 3 0 010-6zM21 19h4.8v2.3c.8-1.4 2.6-2.7 5.3-2.7 5 0 6 3.3 6 7.600V36h-5v-8.600c0-2-.1-4.300-2.700-4.300s-3.100 2-3.100 4.200V36h-5z"/></svg>
           View LinkedIn
@@ -202,6 +204,9 @@ footer{padding:34px 0;border-top:1px solid var(--line);text-align:center;color:v
       <div>
         <h2>Nammaweb</h2>
         <p>Nammaweb is a digital marketing company that helps brands grow online. The team combines search optimization, AI-powered research and lead generation to bring businesses more visibility, more enquiries and measurable revenue growth.</p>
+        <div class="nw-actions">
+          <a class="btn red" href="https://docs.google.com/forms/d/e/1FAIpQLScS7tf-Bg6Vm8lt9dByZm-o91z9hO8JI9BBqxOmIvyrfc5Jlw/viewform?usp=publish-editor" target="_blank" rel="noopener noreferrer">Client Requirements</a>
+        </div>
       </div>
     </div>
   </div>
@@ -210,9 +215,11 @@ footer{padding:34px 0;border-top:1px solid var(--line);text-align:center;color:v
 <section id="booking">
   <div class="wrap">
     <div class="book-box">
-      <h2>Book a call & share your requirements with Rajiv</h2>
-      <p>Tell me about your brand, goals, and project requirements. Click below to fill out the consultation form.</p>
-      <a class="btn red" href="https://docs.google.com/forms/d/e/1FAIpQLScS7tf-Bg6Vm8lt9dByZm-o91z9hO8JI9BBqxOmIvyrfc5Jlw/viewform?usp=publish-editor" target="_blank" rel="noopener noreferrer">Open Requirement Form</a>
+      <h2>Ready to scale your brand?</h2>
+      <p>Share your project requirements with Rajiv or book a call directly via the form below.</p>
+      <div class="book-actions">
+        <a class="btn red" href="https://docs.google.com/forms/d/e/1FAIpQLScS7tf-Bg6Vm8lt9dByZm-o91z9hO8JI9BBqxOmIvyrfc5Jlw/viewform?usp=publish-editor" target="_blank" rel="noopener noreferrer">Client Requirements Form</a>
+      </div>
     </div>
   </div>
 </section>
